@@ -1,0 +1,7 @@
+npm i --legacy-peer-deps @material-ui/core
+npm i --legacy-peer-deps @material-ui/icons
+npm i --legacy-peer-deps react-router-dom	
+npm i --legacy-peer-deps moment --save
+npm i --legacy-peer-deps formik --save
+npm i --legacy-peer-deps yup
+npm i --legacy-peer-deps axios
