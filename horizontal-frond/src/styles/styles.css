@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.navigation {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu-item {
+    color: white;
+    padding: 10px 15px;
+    transition: .4s all ease;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu-item:hover,
+.nav-active {
+    background-color: white;
+    color: #9C2549;
+}
