@@ -1,17 +1,18 @@
-import { Fragment } from "react";
-import DidMount from "./configPrimary/DidMount";
+import DidMount from './configPrimary/DidMount'
+import './styles/styles.css'
+import SideMenu from './components/SideMenu'
 
-
-function App() {
-
-
+function App () {
   return (
-   <Fragment>
-
-      <DidMount/>
-
-   </Fragment>
-  );
+    <div
+      style={{
+        display: 'flex'
+      }}
+    >
+      <SideMenu />
+      <DidMount />
+    </div>
+  )
 }
 
-export default App;
+export default App
